@@ -8,8 +8,6 @@ header .logo {
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
-    list-style: none;
-
 }
 
 header .container {
@@ -20,8 +18,8 @@ header .container {
     align-items: center;
 }
 
-header .container a img{
- margin-bottom: 10px;
+header .container a img {
+    margin-bottom: 10px;
 }
 
 .container ul {
@@ -31,7 +29,6 @@ header .container a img{
 
 .container ul img {
     margin-left: 30.5px;
-
 }
 
 .instagram {
@@ -47,7 +44,6 @@ header .container a img{
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
-
 }
 
 .main_bunner {
