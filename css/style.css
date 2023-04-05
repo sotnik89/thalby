@@ -18,8 +18,10 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-
+header .container a img{
+ margin-bottom: 10px;
 }
 
 .container ul {
@@ -45,6 +47,7 @@ header .container {
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
+
 }
 
 .main_bunner {
@@ -103,18 +106,18 @@ header .container {
     box-sizing: border-box;
 }
 
-.guides{
+.guides {
     background-color: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 88px;
-    }
-.countries{
+}
+
+.countries {
     max-width: 692px;
     margin: auto;
-
 }
-.countries h2{
 
+.countries h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -124,7 +127,8 @@ header .container {
     color: #000000;
     margin-bottom: 27px;
 }
-.countries p{
+
+.countries p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -140,13 +144,3 @@ header .container {
     margin-bottom: 47px;
 }
 
-
-/*.ebooks{*/
-/*    font-family: 'Roboto';*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 20px;*/
-/*    line-height: 23px;*/
-/*    text-align: center;*/
-/*    color: #000000;*/
-/*}*/
