@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +32,6 @@ header .logo {
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
-
 }
 
 header .container {
@@ -39,9 +62,7 @@ header .container a img {
 .collestion li a {
     text-decoration: none;
     margin-right: 28px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'robotobold';
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
@@ -50,7 +71,8 @@ header .container a img {
 .main_bunner {
     position: relative;
     background: #F0EFEB;
-        padding-top: 90px;
+
+    padding-top: 90px;
     padding-bottom: 99px;
 }
 
@@ -68,18 +90,14 @@ header .container a img {
 .main_bunner .container h1 {
     max-width: 534px;
     margin-bottom: 42px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'robotobold';
     font-size: 60px;
     line-height: 70px;
     color: #000000;
 }
 
 .main_bunner .container p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'robotoregular';
     font-size: 24px;
     line-height: 28px;
     color: #000000;
@@ -89,9 +107,7 @@ header .container a img {
 
 .main_bunner .container a {
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'robotoregular';
     font-size: 17px;
     line-height: 20px;
     color: #FFFFFF;
@@ -114,9 +130,7 @@ header .container a img {
 }
 
 .countries h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'robotobold';
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -125,9 +139,7 @@ header .container a img {
 }
 
 .countries p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'robotoregular';
     font-size: 20px;
     line-height: 23px;
     text-align: center;
