@@ -79,7 +79,8 @@ header .container a img {
 
 .main_bunner .container {
     max-width: 1064px;
-    margin: auto;
+        margin: auto;
+
 }
 
 .main_bunner .container img {
