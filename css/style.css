@@ -8,6 +8,7 @@ header .logo {
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
+
 }
 
 header .container {
@@ -28,7 +29,7 @@ header .container a img {
 }
 
 .container ul img {
-    margin-left: 30.5px;
+    margin-left: 15px;
 }
 
 .instagram {
@@ -49,8 +50,7 @@ header .container a img {
 .main_bunner {
     position: relative;
     background: #F0EFEB;
-    height: 554px;
-    padding-top: 90px;
+        padding-top: 90px;
     padding-bottom: 99px;
 }
 
