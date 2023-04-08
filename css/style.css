@@ -71,7 +71,6 @@ header .container a img {
 .main_bunner {
     position: relative;
     background: #F0EFEB;
-
     padding-top: 90px;
     padding-bottom: 99px;
 }
@@ -94,6 +93,7 @@ header .container a img {
     font-size: 60px;
     line-height: 70px;
     color: #000000;
+
 }
 
 .main_bunner .container p {
