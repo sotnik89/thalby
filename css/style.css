@@ -152,30 +152,35 @@ header .container a img {
     margin: auto;
     margin-bottom: 47px;
 }
+
 /*sellers*/
-.sellers{
+.sellers {
     background-color: #FFFFFF;
-    padding-top: 0 ;
+    padding-top: 0;
     padding-bottom: 248px;
 }
-.sellers .container{
+
+.sellers .container {
     max-width: 1064px;
     margin: auto;
 }
-.sellers .container h3{
+
+.sellers .container h3 {
     font-family: 'robotobold';
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #000000;
-    margin-bottom: 52px ;
+    margin-bottom: 52px;
 }
-.sellers article{
+
+.sellers article {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.sellers .thalby{
+
+.sellers .thalby {
     width: 156px;
     margin: auto;
     margin-top: 27px;
@@ -188,15 +193,17 @@ header .container a img {
     text-align: center;
     color: #000000;
 }
-.sellers a{
+
+.sellers a {
     font-family: 'robotobold';
     font-size: 17px;
     line-height: 20px;
-     text-align: center;
+    text-align: center;
     text-decoration-line: underline;
     color: #000000;
 }
-.sellers .price{
+
+.sellers .price {
     font-family: 'robotoregular';
     font-size: 17px;
     line-height: 20px;
