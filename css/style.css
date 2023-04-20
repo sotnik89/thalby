@@ -182,7 +182,9 @@ header .container a img {
 
 .sellers article img {
     max-width: 315px;
- }
+    /*display: inline-block;*/
+    /*width: 100%;*/
+}
 
 .sellers .thalby {
     width: 156px;
