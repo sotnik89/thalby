@@ -63,7 +63,6 @@ header .container a img {
     text-decoration: none;
     margin-right: 28px;
     font-family: 'robotobold';
-
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
@@ -72,14 +71,12 @@ header .container a img {
 .main_bunner {
     position: relative;
     background: #F0EFEB;
-
     padding-top: 90px;
     padding-bottom: 99px;
 }
 
 .main_bunner .container {
     max-width: 1064px;
-
     margin: auto;
 
 }
@@ -128,7 +125,7 @@ header .container a img {
 }
 
 .countries {
-    max-width: 692px;
+    max-width: 1064px;
     margin: auto;
 }
 
@@ -151,8 +148,59 @@ header .container a img {
 }
 
 .curious {
-    max-width: 585px;
+    max-width: 632px;
     margin: auto;
     margin-bottom: 47px;
 }
-
+/*sellers*/
+.sellers{
+    background-color: #FFFFFF;
+    padding-top: 0 ;
+    padding-bottom: 248px;
+}
+.sellers .container{
+    max-width: 1064px;
+    margin: auto;
+}
+.sellers .container h3{
+    font-family: 'robotobold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px ;
+}
+.sellers article{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.sellers .thalby{
+    width: 156px;
+    margin: auto;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.sellers a{
+    font-family: 'robotobold';
+    font-size: 17px;
+    line-height: 20px;
+     text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.sellers .price{
+    font-family: 'robotoregular';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
