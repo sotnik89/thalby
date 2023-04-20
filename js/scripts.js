@@ -5,15 +5,15 @@ $(document).ready(function(){
         nav:true,
         navText: [ '', ' ' ],
         autoplay:true,
-        autoplayTimeout:1500,
+        autoplayTimeout:2000,
 
         responsive:{
             0:{
-                items:3
+                items:1
             },
 
             1000:{
-                items:3
+                items:1
             }
         }
     });

@@ -182,7 +182,7 @@ header .container a img {
 
 .sellers article img {
     max-width: 315px;
-}
+ }
 
 .sellers .thalby {
     width: 156px;
@@ -220,18 +220,22 @@ header .container a img {
     position: absolute;
     left: -70px;
     top: 185px;
-    width: 50px;
-    height: 50px;
-    background-color: red !important;
+    font-weight: 900 !important;
+    font-family: "Font Awesome 6 Free" !important;
+    rotate: 180deg;
+}
 
+.owl-nav .owl-prev:before {
+    content: "\f054";
+    color: black;
 }
 
 .owl-nav .owl-next {
     position: absolute;
     right: -30px;
     top: 185px;
-    font-weight: 900;
-    font-family: "Font Awesome 6 Free";
+    font-weight: 900 !important;
+    font-family: "Font Awesome 6 Free" !important;
 }
 
 .owl-nav .owl-next:before {
