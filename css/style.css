@@ -154,15 +154,25 @@ header .container a img {
 }
 
 /*sellers*/
+
 .sellers {
     background-color: #FFFFFF;
     padding-top: 0;
     padding-bottom: 248px;
 }
 
+.sellers article {
+    display: flex;
+    justify-content: space-between;
+}
+
 .sellers .container {
     max-width: 1064px;
     margin: auto;
+}
+
+.sellers .add {
+    text-align: center;
 }
 
 .sellers .container h3 {
@@ -174,14 +184,9 @@ header .container a img {
     margin-bottom: 52px;
 }
 
-.sellers article {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
 .sellers article img {
     max-width: 315px;
+    margin: auto;
     /*display: inline-block;*/
     /*width: 100%;*/
 }
@@ -202,7 +207,6 @@ header .container a img {
     font-family: 'robotobold';
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     text-decoration-line: underline;
     color: #000000;
 }
@@ -218,7 +222,7 @@ header .container a img {
 
 .owl-nav .owl-prev {
     position: absolute;
-    left: -70px;
+    left: -30px;
     top: 185px;
     font-weight: 900 !important;
     font-family: "Font Awesome 6 Free" !important;
@@ -243,6 +247,12 @@ header .container a img {
     color: black;
 }
 
+.owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .owl-dots .owl-dot span {
     width: 15px;
     height: 15px;
@@ -250,7 +260,6 @@ header .container a img {
     border-radius: 50%;
     margin: 15px;
     background-color: dodgerblue;
-
 }
 
 .owl-dots .owl-dot.active span {
@@ -258,3 +267,11 @@ header .container a img {
     width: 25px;
     height: 25px;
 }
+
+/*.ad{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.as{*/
+/*    text-align: center;*/
+/*}*/
