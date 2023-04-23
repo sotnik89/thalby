@@ -190,7 +190,6 @@ header .container a img {
     /*display: inline-block;*/
     /*width: 100%;*/
 }
-
 .sellers .thalby {
     width: 156px;
     margin: auto;
@@ -268,10 +267,4 @@ header .container a img {
     height: 25px;
 }
 
-/*.ad{*/
-/*    display: flex;*/
-/*    justify-content: space-around;*/
-/*}*/
-/*.as{*/
-/*    text-align: center;*/
-/*}*/
+
