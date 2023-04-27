@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+
+$main_font: 'robotobold';
+$main_color: #1C1B1B;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+header {
+  background-color: white;
+
+  .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 15px;
+  }
+
+  .icon {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+
+      li {
+        a {
+          text-decoration: none;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          color: $main_color;
+          margin-right: 28px;
+        }
+      }
+
+      img {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+
+.main_bunner {
+  position: relative;
+  background: #F0EFEB;
+  padding-top: 90px;
+  padding-bottom: 99px;
+
+  .container_m {
+    max-width: 1064px;
+    margin: auto;
+
+    img {
+      position: absolute;
+      top: 9px;
+      right: 60px;
+    }
+    h1 {
+      max-width: 534px;
+      margin-bottom: 42px;
+      font-family: 'robotobold';
+      font-size: 60px;
+      line-height: 70px;
+      color: #000000;
+    }
+    p {
+      font-family: 'robotoregular';
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 33px;
+      max-width: 481px;
+    }
+    a{
+      text-decoration: none;
+      font-family: 'robotoregular';
+      font-size: 17px;
+      line-height: 20px;
+      color: #FFFFFF;
+      background: #000000;
+      border: 1px solid #000000;
+      border-radius: 100px;
+      padding: 7px 23px 9px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.guides {
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 88px;
+  .countries{
+    max-width: 1064px;
+    margin: auto;
+    h2{
+      font-family: 'robotobold';
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 27px;
+    }
+    p{
+      font-family: 'robotoregular';
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #000000;
+    }
+    .curious{
+      max-width: 632px;
+      margin: auto;
+      margin-bottom: 47px;
+    }
+  }
+}
+/*sellers*/
+
+.sellers {
+  background-color: #FFFFFF;
+  padding-top: 0;
+  padding-bottom: 248px;
+  .container{
+    max-width: 1064px;
+    margin: auto;
+    h3{
+      font-family: 'robotobold';
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 52px;
+    }
+    article{
+      display: flex;
+      justify-content: space-between;
+      img{
+        max-width: 315px;
+        margin: auto;
+      }
+      .add{
+        text-align: center;
+        .thalby{
+          width: 156px;
+          margin: auto;
+          margin-top: 27px;
+          margin-bottom: 17px;
+          font-family: 'robotobold';
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+        }
+        .price{
+          font-family: 'robotoregular';
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+        a{
+          font-family: 'robotoregular';
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .owl-nav{
+      .owl-prev{
+        position: absolute;
+        left: -30px;
+        top: 185px;
+        font-weight: 900 !important;
+        font-family: "Font Awesome 6 Free" !important;
+        rotate: 180deg;
+        &:before {
+          content: "\f054";
+          color: black;
+        }
+      }
+      .owl-next{
+        position: absolute;
+        right: -30px;
+        top: 185px;
+        font-weight: 900 !important;
+        font-family: "Font Awesome 6 Free" !important;
+        &:before{
+          content: "\f054";
+          color: black;
+        }
+      }
+      .owl-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .owl-dot{
+          span{
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            border-radius: 50%;
+            margin: 15px;
+            background-color: dodgerblue;
+          }
+        }
+        .owl-dot.active{
+          span{
+            background-color: darkorchid;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

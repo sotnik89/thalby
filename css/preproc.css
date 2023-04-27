@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+header {
+  background-color: white;
+}
+header .container {
+  max-width: 1064px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 15px;
+}
+header .icon {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+  margin-right: 28px;
+}
+header nav ul img {
+  margin-left: 15px;
+}
+
+.main_bunner {
+  position: relative;
+  background: #F0EFEB;
+  padding-top: 90px;
+  padding-bottom: 99px;
+}
+.main_bunner .container_m {
+  max-width: 1064px;
+  margin: auto;
+}
+.main_bunner .container_m img {
+  position: absolute;
+  top: 9px;
+  right: 60px;
+}
+.main_bunner .container_m h1 {
+  max-width: 534px;
+  margin-bottom: 42px;
+  font-family: "robotobold";
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+}
+.main_bunner .container_m p {
+  font-family: "robotoregular";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 33px;
+  max-width: 481px;
+}
+.main_bunner .container_m a {
+  text-decoration: none;
+  font-family: "robotoregular";
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 7px 23px 9px;
+  box-sizing: border-box;
+}
+
+.guides {
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 88px;
+}
+.guides .countries {
+  max-width: 1064px;
+  margin: auto;
+}
+.guides .countries h2 {
+  font-family: "robotobold";
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.guides .countries p {
+  font-family: "robotoregular";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.guides .countries .curious {
+  max-width: 632px;
+  margin: auto;
+  margin-bottom: 47px;
+}
+
+/*sellers*/
+.sellers {
+  background-color: #FFFFFF;
+  padding-top: 0;
+  padding-bottom: 248px;
+}
+.sellers .container {
+  max-width: 1064px;
+  margin: auto;
+}
+.sellers .container h3 {
+  font-family: "robotobold";
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 52px;
+}
+.sellers .container article {
+  display: flex;
+  justify-content: space-between;
+}
+.sellers .container article img {
+  max-width: 315px;
+  margin: auto;
+}
+.sellers .container article .add {
+  text-align: center;
+}
+.sellers .container article .add .thalby {
+  width: 156px;
+  margin: auto;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  font-family: "robotobold";
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.sellers .container article .add .price {
+  font-family: "robotoregular";
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.sellers .container article .add a {
+  font-family: "robotoregular";
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.sellers .container .owl-nav .owl-prev {
+  position: absolute;
+  left: -30px;
+  top: 185px;
+  font-weight: 900 !important;
+  font-family: "Font Awesome 6 Free" !important;
+  rotate: 180deg;
+}
+.sellers .container .owl-nav .owl-prev:before {
+  content: "\f054";
+  color: black;
+}
+.sellers .container .owl-nav .owl-next {
+  position: absolute;
+  right: -30px;
+  top: 185px;
+  font-weight: 900 !important;
+  font-family: "Font Awesome 6 Free" !important;
+}
+.sellers .container .owl-nav .owl-next:before {
+  content: "\f054";
+  color: black;
+}
+.sellers .container .owl-nav .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sellers .container .owl-nav .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: dodgerblue;
+}
+.sellers .container .owl-nav .owl-dots .owl-dot.active span {
+  background-color: darkorchid;
+  width: 25px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=preproc.css.map */
