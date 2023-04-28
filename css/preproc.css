@@ -6,6 +6,27 @@
 header {
   background-color: white;
 }
+@media screen and (max-width: 769px) {
+  header {
+    padding: 7px 0;
+  }
+}
+@media screen and (max-width: 429px) {
+  header {
+    padding: 15px 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .nav-but-wrap {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .nav {
+    position: fixed;
+    z-index: 98;
+  }
+}
 header .container {
   max-width: 1064px;
   margin: auto;
@@ -13,24 +34,40 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
-header .logo {
+header .container .logo {
   position: absolute;
   left: calc(50% - 40px);
   top: 15px;
 }
-header .icon {
+@media screen and (max-width: 429px) {
+  header .container .logo {
+    top: 12px;
+  }
+}
+header .container .icon {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 3px;
+}
+@media screen and (max-width: 429px) {
+  header .container .icon {
+    display: none;
+  }
+}
+header .container nav ul {
   display: flex;
   list-style: none;
   align-items: center;
 }
-header nav ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
+@media screen and (max-width: 769px) {
+  header .container nav ul {
+    display: inline-block;
+  }
 }
-header nav ul li a {
+header .container nav ul li a {
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -38,7 +75,7 @@ header nav ul li a {
   color: #1C1B1B;
   margin-right: 28px;
 }
-header nav ul img {
+header .container nav ul li a img {
   margin-left: 15px;
 }
 
@@ -48,34 +85,105 @@ header nav ul img {
   padding-top: 90px;
   padding-bottom: 99px;
 }
+@media screen and (max-width: 769px) {
+  .main_bunner {
+    margin-top: 57px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .main_bunner {
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+}
 .main_bunner .container_m {
   max-width: 1064px;
   margin: auto;
+}
+@media screen and (max-width: 769px) {
+  .main_bunner .container_m {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .main_bunner .container_m {
+    max-width: 370px;
+    margin: auto;
+    text-align: center;
+  }
 }
 .main_bunner .container_m img {
   position: absolute;
   top: 9px;
   right: 60px;
 }
+@media screen and (max-width: 769px) {
+  .main_bunner .container_m img {
+    max-width: 50%;
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 429px) {
+  .main_bunner .container_m img {
+    position: inherit;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+}
 .main_bunner .container_m h1 {
   max-width: 534px;
   margin-bottom: 42px;
-  font-family: "robotobold";
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
   line-height: 70px;
   color: #000000;
 }
+@media screen and (max-width: 769px) {
+  .main_bunner .container_m h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .main_bunner .container_m h1 {
+    margin-bottom: 13px;
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .main_bunner .container_m h1 {
+    font-size: 30px;
+  }
+}
 .main_bunner .container_m p {
-  font-family: "robotoregular";
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
   margin-bottom: 33px;
   max-width: 481px;
 }
+@media screen and (max-width: 769px) {
+  .main_bunner .container_m p {
+    font-size: 19.5px;
+    line-height: 24px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .main_bunner .container_m p {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 25px;
+  }
+}
 .main_bunner .container_m a {
   text-decoration: none;
-  font-family: "robotoregular";
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
   color: #FFFFFF;
@@ -91,24 +199,56 @@ header nav ul img {
   padding-top: 60px;
   padding-bottom: 88px;
 }
+@media screen and (max-width: 769px) {
+  .guides {
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .guides {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+}
 .guides .countries {
   max-width: 1064px;
   margin: auto;
 }
 .guides .countries h2 {
-  font-family: "robotobold";
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: #000000;
   margin-bottom: 27px;
 }
+@media screen and (max-width: 429px) {
+  .guides .countries h2 {
+    font-size: 34px;
+    line-height: 37px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .guides .countries h2 {
+    font-size: 29px;
+  }
+}
 .guides .countries p {
-  font-family: "robotoregular";
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   color: #000000;
+}
+@media screen and (max-width: 429px) {
+  .guides .countries {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
 }
 .guides .countries .curious {
   max-width: 632px;
@@ -127,12 +267,22 @@ header nav ul img {
   margin: auto;
 }
 .sellers .container h3 {
-  font-family: "robotobold";
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: #000000;
   margin-bottom: 52px;
+}
+@media screen and (max-width: 769px) {
+  .sellers .container h3 {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .sellers .container h3 {
+    font-size: 29px;
+  }
 }
 .sellers .container article {
   display: flex;
@@ -142,6 +292,11 @@ header nav ul img {
   max-width: 315px;
   margin: auto;
 }
+@media screen and (max-width: 769px) {
+  .sellers .container article img {
+    max-width: 250px;
+  }
+}
 .sellers .container article .add {
   text-align: center;
 }
@@ -150,14 +305,14 @@ header nav ul img {
   margin: auto;
   margin-top: 27px;
   margin-bottom: 17px;
-  font-family: "robotobold";
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
   color: #000000;
 }
 .sellers .container article .add .price {
-  font-family: "robotoregular";
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
@@ -165,7 +320,7 @@ header nav ul img {
   margin-bottom: 10px;
 }
 .sellers .container article .add a {
-  font-family: "robotoregular";
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
@@ -195,12 +350,12 @@ header nav ul img {
   content: "\f054";
   color: black;
 }
-.sellers .container .owl-nav .owl-dots {
+.sellers .container .owl-dots {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.sellers .container .owl-nav .owl-dots .owl-dot span {
+.sellers .container .owl-dots .owl-dot span {
   width: 15px;
   height: 15px;
   display: inline-block;
@@ -208,7 +363,7 @@ header nav ul img {
   margin: 15px;
   background-color: dodgerblue;
 }
-.sellers .container .owl-nav .owl-dots .owl-dot.active span {
+.sellers .container .owl-dots .owl-dot.active span {
   background-color: darkorchid;
   width: 25px;
   height: 25px;
