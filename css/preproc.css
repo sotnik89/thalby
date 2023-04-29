@@ -16,17 +16,6 @@ header {
     padding: 15px 0;
   }
 }
-@media screen and (max-width: 769px) {
-  header .nav-but-wrap {
-    display: inline-block;
-  }
-}
-@media screen and (max-width: 769px) {
-  header .nav {
-    position: fixed;
-    z-index: 98;
-  }
-}
 header .container {
   max-width: 1064px;
   margin: auto;
@@ -62,7 +51,7 @@ header .container nav ul {
 }
 @media screen and (max-width: 769px) {
   header .container nav ul {
-    display: inline-block;
+    display: none;
   }
 }
 header .container nav ul li a {
@@ -73,10 +62,110 @@ header .container nav ul li a {
   font-size: 16px;
   line-height: 26px;
   color: #1C1B1B;
-  margin-right: 28px;
+  margin-right: 12px;
 }
-header .container nav ul li a img {
-  margin-left: 15px;
+@media screen and (max-width: 769px) {
+  header .container .nav-but-wrap {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav {
+    position: fixed;
+    z-index: 98;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content {
+    position: fixed;
+    visibility: visible;
+    left: 0;
+    top: 50%;
+    margin-top: 20px;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content .nav__list-item {
+    position: relative;
+    display: block;
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+    opacity: 0;
+    text-align: center;
+    color: #fff;
+    overflow: visible;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: 3px;
+    -webkit-transform: translate(100px, 0%);
+    transform: translate(100px, 0%);
+    -webkit-transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
+    transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
+    transition: opacity 0.2s ease, transform 0.3s ease;
+    transition: opacity 0.2s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content .nav__list-item a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 900;
+    z-index: 2;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content .nav__list-item a:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    margin-top: -2px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: #8167a9;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content .nav__list-item a:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 769px) {
+  header .container .nav .nav__content .nav__list-item a:hover:after {
+    height: 4px;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+  }
+}
+header .container .nav .nav__content.active-nav a {
+  color: rgb(255, 255, 255);
+}
+header .container .nav .nav__content.active-nav a::after {
+  height: 4px;
+  opacity: 1;
+  left: 0;
+  width: 100%;
 }
 
 .main_bunner {
@@ -242,7 +331,7 @@ header .container nav ul li a img {
   color: #000000;
 }
 @media screen and (max-width: 429px) {
-  .guides .countries {
+  .guides .countries p {
     font-size: 17px;
     line-height: 20px;
     text-align: center;
@@ -284,23 +373,19 @@ header .container nav ul li a img {
     font-size: 29px;
   }
 }
-.sellers .container article {
-  display: flex;
-  justify-content: space-between;
+.sellers .container .owl-carousel article {
+  text-align: center;
 }
-.sellers .container article img {
+.sellers .container .owl-carousel article img {
   max-width: 315px;
   margin: auto;
 }
 @media screen and (max-width: 769px) {
-  .sellers .container article img {
+  .sellers .container .owl-carousel article img {
     max-width: 250px;
   }
 }
-.sellers .container article .add {
-  text-align: center;
-}
-.sellers .container article .add .thalby {
+.sellers .container .owl-carousel article .thalby {
   width: 156px;
   margin: auto;
   margin-top: 27px;
@@ -311,7 +396,7 @@ header .container nav ul li a img {
   text-align: center;
   color: #000000;
 }
-.sellers .container article .add .price {
+.sellers .container .owl-carousel article .price {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
@@ -319,13 +404,31 @@ header .container nav ul li a img {
   color: #000000;
   margin-bottom: 10px;
 }
-.sellers .container article .add a {
+.sellers .container .owl-carousel article a {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
   color: #000000;
   margin-bottom: 10px;
+}
+.sellers .container .owl-carousel .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sellers .container .owl-carousel .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: dodgerblue;
+}
+.sellers .container .owl-carousel .owl-dots .owl-dot.active span {
+  background-color: darkorchid;
+  width: 25px;
+  height: 25px;
 }
 .sellers .container .owl-nav .owl-prev {
   position: absolute;
@@ -349,24 +452,6 @@ header .container nav ul li a img {
 .sellers .container .owl-nav .owl-next:before {
   content: "\f054";
   color: black;
-}
-.sellers .container .owl-dots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sellers .container .owl-dots .owl-dot span {
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 15px;
-  background-color: dodgerblue;
-}
-.sellers .container .owl-dots .owl-dot.active span {
-  background-color: darkorchid;
-  width: 25px;
-  height: 25px;
 }
 
 /*# sourceMappingURL=preproc.css.map */
