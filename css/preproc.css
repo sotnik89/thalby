@@ -452,4 +452,338 @@ header .container .nav .nav__content.active-nav a::after {
   color: black;
 }
 
+.people {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.people .sub_people {
+  max-width: 1064px;
+  margin: auto;
+}
+.people .sub_people article {
+  display: flex;
+}
+.people .sub_people article img {
+  width: 100%;
+  max-width: 375px;
+}
+.people .sub_people article .society {
+  margin-left: 50px;
+}
+.people .sub_people article .society h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  padding-top: 70px;
+  margin-bottom: 31px;
+}
+.people .sub_people article .society p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+  max-width: 498px;
+}
+.people .sub_people article .society a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.maroccan {
+  background: rgba(204, 204, 204, 0.6);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.maroccan .sub_maroccan {
+  max-width: 1064px;
+  margin: auto;
+}
+.maroccan .sub_maroccan article {
+  display: flex;
+}
+.maroccan .sub_maroccan article .heritage {
+  margin-right: 50px;
+  text-align: right;
+}
+.maroccan .sub_maroccan article .heritage h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  padding-top: 92px;
+  margin-bottom: 31px;
+}
+.maroccan .sub_maroccan article .heritage p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  max-width: 513px;
+  margin-bottom: 31px;
+}
+.maroccan .sub_maroccan article .heritage a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.maroccan .sub_maroccan article img {
+  width: 100%;
+  max-width: 375px;
+}
+
+.power {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.power .sub_power {
+  max-width: 1064px;
+  margin: auto;
+}
+.power .sub_power article {
+  display: flex;
+}
+.power .sub_power article img {
+  width: 100%;
+  max-width: 375px;
+}
+.power .sub_power article .politics {
+  margin-left: 50px;
+}
+.power .sub_power article .politics h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  padding-top: 92px;
+  margin-bottom: 31px;
+}
+.power .sub_power article .politics p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  max-width: 530px;
+  margin-bottom: 39px;
+}
+.power .sub_power article .politics a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.unique {
+  background: white;
+  padding-top: 190px;
+  padding-bottom: 110px;
+}
+.unique .sub_unique {
+  max-width: 1280px;
+  margin: auto;
+}
+.unique .sub_unique h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.unique .sub_unique .first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 69px;
+  margin-bottom: 111px;
+}
+.unique .sub_unique .first article {
+  text-align: center;
+  width: 216px;
+}
+.unique .sub_unique .first article img {
+  width: 100%;
+  max-width: 70px;
+  margin-bottom: 25px;
+}
+.unique .sub_unique .first article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.unique .sub_unique .second {
+  display: flex;
+  justify-content: space-around;
+}
+.unique .sub_unique .second article {
+  text-align: center;
+  width: 216px;
+}
+.unique .sub_unique .second article img {
+  width: 100%;
+  max-width: 70px;
+  margin-bottom: 25px;
+}
+.unique .sub_unique .second article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.voices {
+  background: linear-gradient(to top, #F0F0F0 50%, white 50%);
+  padding: 52px 0;
+}
+.voices .sub_voices {
+  max-width: 1064px;
+  margin: auto;
+}
+.voices .sub_voices h3 {
+  max-width: 705px;
+  margin: auto;
+  margin-bottom: 102px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.voices .sub_voices .discover {
+  display: flex;
+  justify-content: space-between;
+}
+.voices .sub_voices .discover article {
+  text-align: center;
+}
+.voices .sub_voices .discover article img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.voices .sub_voices .discover article .things {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-bottom: 40px;
+  width: 269px;
+}
+.voices .sub_voices .discover article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 44px;
+  width: 269px;
+}
+.voices .sub_voices .discover article a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+  width: 269px;
+}
+
+.touch {
+  background-color: #FFFFFF;
+  padding-top: 79px;
+  padding-bottom: 98px;
+}
+.touch .sub_touch {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+}
+.touch .sub_touch h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.touch .sub_touch p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  max-width: 496px;
+  margin: auto;
+  margin-bottom: 26px;
+}
+.touch .sub_touch a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 7px 23px 10px;
+}
+
+footer {
+  background-color: #020202;
+  padding-bottom: 16px;
+  padding-top: 51px;
+}
+footer .foot {
+  max-width: 1280px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=preproc.css.map */
