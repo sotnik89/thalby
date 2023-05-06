@@ -319,7 +319,6 @@ header {
       }
     }
   }
-
   /*sellers*/
 
 .sellers {
@@ -470,7 +469,7 @@ header {
         }
       }
       h3{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -485,7 +484,7 @@ header {
         }
       }
       p{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -506,7 +505,7 @@ header {
         }
       }
       a{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 17px;
@@ -545,7 +544,7 @@ header {
           text-align: center;
         }
       h3{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -560,7 +559,7 @@ header {
         }
       }
       p{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -581,14 +580,13 @@ header {
         }
       }
       a{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 17px;
         line-height: 20px;
         text-decoration-line: underline;
         color: #000000;
-
       }
     }
       img{
@@ -643,7 +641,7 @@ header {
           margin-left: 0;
         }
         h3{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 36px;
@@ -658,7 +656,7 @@ header {
           }
         }
         p{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 36px;
@@ -679,7 +677,7 @@ header {
           }
         }
         a{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 17px;
@@ -703,7 +701,7 @@ header {
     max-width: 1280px;
     margin: auto;
     h3{
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 36px;
@@ -716,6 +714,10 @@ header {
       }
       @include max-screen(361px){
         font-size: 26px;
+        line-height: 37px;
+      }
+      @include max-screen(361px){
+        font-size: 24px;
         line-height: 37px;
       }
     }
@@ -741,7 +743,7 @@ header {
           margin-bottom: 25px;
         }
         p{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 30px;
@@ -771,7 +773,7 @@ header {
           margin-bottom: 25px;
         }
         p{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 30px;
@@ -811,7 +813,7 @@ header {
       margin: auto;
       margin-bottom: 102px;
       text-align: center;
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 36px;
@@ -850,7 +852,7 @@ header {
           }
         }
         .things{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 22px;
@@ -868,7 +870,7 @@ header {
           }
         }
         p{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 20px;
@@ -884,7 +886,7 @@ header {
           }
         }
         a{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 18px;
@@ -911,7 +913,7 @@ header {
     margin: auto;
     text-align: center;
     h3 {
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 36px;
@@ -920,7 +922,7 @@ header {
       margin-bottom: 9px;
     }
     p {
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 17px;
@@ -945,7 +947,7 @@ header {
       padding-left: 8px;
       padding-bottom: 11px;
       box-sizing: border-box;
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -962,7 +964,7 @@ header {
         padding-left: 8px;
         padding-bottom: 10px;
         box-sizing: border-box;
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -971,7 +973,7 @@ header {
       }
     }
     button{
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -1065,7 +1067,7 @@ footer{
       list-style: none;
       }
       .ab{
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -1082,7 +1084,7 @@ footer{
           margin-bottom: 4px;
         }
         a{
-          font-family: 'Roboto';
+          font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 14px;
@@ -1104,7 +1106,7 @@ footer{
   }
   .llc{
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
