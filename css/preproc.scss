@@ -326,6 +326,9 @@ header {
     background-color: #FFFFFF;
     padding-top: 0;
     padding-bottom: 248px;
+  @include max-screen(769px){
+    padding-bottom: 100px;
+  }
     .container {
       max-width: 1064px;
       margin: auto;
@@ -435,17 +438,37 @@ header {
   background: rgba(204, 204, 204, 0.3);
   padding-top: 76px;
   padding-bottom: 51px;
+  @include max-screen(769px){
+    padding: 40px 15px 30px;
+  }
   .sub_people{
     max-width: 1064px;
     margin: auto;
     article{
       display: flex;
+      @include max-screen(429px){
+        display: inline-block;
+        text-align: center;
+      }
       img{
         width: 100%;
         max-width: 375px;
+        @include max-screen(769px) {
+          max-width: 330px;
+        }
+        @include max-screen(361px){
+          max-width: 280px;
+        }
       }
       .society{
-        margin-left: 50px;
+          margin-left: 50px;
+        @include max-screen(769px){
+          margin-left: 25px;
+        }
+        @include max-screen(429px){
+          margin-left: 0;
+        }
+      }
       h3{
         font-family: 'Roboto';
         font-style: normal;
@@ -455,6 +478,11 @@ header {
         color: #000000;
         padding-top: 70px;
         margin-bottom: 31px;
+        @include max-screen(769px){
+          padding-top: 35px;
+          margin-bottom: 20px;
+          font-size: 33px;
+        }
       }
       p{
         font-family: 'Roboto';
@@ -465,6 +493,17 @@ header {
         color: #000000;
         margin-bottom: 40px;
         max-width: 498px;
+        @include max-screen(769px){
+          font-size: 30px;
+          max-width: 380px;
+          margin-bottom: 25px;
+          text-align: justify;
+        }
+        @include max-screen(429px){
+          max-width: 100%;
+          line-height: 22px;
+          font-size: 17px;
+        }
       }
       a{
         font-family: 'Roboto';
@@ -477,20 +516,34 @@ header {
       }
     }
   }
-  }
 }
+
 .maroccan{
   background: rgba(204, 204, 204, 0.6);
   padding-top: 76px;
   padding-bottom: 51px;
+  @include max-screen(769px){
+    padding: 40px 15px 30px;
+  }
   .sub_maroccan{
     max-width: 1064px;
     margin: auto;
     article{
       display: flex;
+      @include max-screen(429px){
+        display: inline-block;
+        text-align: center;
+      }
       .heritage{
         margin-right: 50px;
         text-align: right;
+        @include max-screen(769px){
+          margin-right: 25px;
+        }
+        @include max-screen(429px){
+          margin-right:  0;
+          text-align: center;
+        }
       h3{
         font-family: 'Roboto';
         font-style: normal;
@@ -500,6 +553,11 @@ header {
         color: #000000;
         padding-top: 92px;
         margin-bottom: 31px;
+        @include max-screen(769px){
+          padding-top: 35px;
+          margin-bottom: 20px;
+          font-size: 33px;
+        }
       }
       p{
         font-family: 'Roboto';
@@ -510,6 +568,17 @@ header {
         color: #000000;
         max-width: 513px;
         margin-bottom: 31px;
+        @include max-screen(769px){
+          font-size: 30px;
+          max-width: 380px;
+          margin-bottom: 25px;
+          text-align: justify;
+        }
+        @include max-screen(429px){
+          max-width: 100%;
+          line-height: 22px;
+          font-size: 17px;
+        }
       }
       a{
         font-family: 'Roboto';
@@ -519,11 +588,21 @@ header {
         line-height: 20px;
         text-decoration-line: underline;
         color: #000000;
+
       }
-      }
+    }
       img{
         width: 100%;
         max-width: 375px;
+        @include max-screen(769px) {
+          max-width: 330px;
+        }
+        @include max-screen(429px){
+          margin-top: 20px;
+        }
+        @include max-screen(361px){
+          max-width: 280px;
+        }
       }
     }
   }
@@ -533,17 +612,36 @@ header {
   background: rgba(204, 204, 204, 0.3);
   padding-top: 76px;
   padding-bottom: 51px;
+  @include max-screen(769px){
+    padding: 40px 15px 30px;
+  }
   .sub_power{
     max-width: 1064px;
     margin: auto;
     article{
       display: flex;
+      @include max-screen(429px){
+        display: inline-block;
+        text-align: center;
+      }
       img{
         width: 100%;
         max-width: 375px;
+        @include max-screen(769px) {
+          max-width: 330px;
+        }
+        @include max-screen(361px){
+          max-width: 280px;
+        }
       }
       .politics{
         margin-left: 50px;
+        @include max-screen(769px){
+          margin-left: 25px;
+        }
+        @include max-screen(429px){
+          margin-left: 0;
+        }
         h3{
           font-family: 'Roboto';
           font-style: normal;
@@ -553,6 +651,11 @@ header {
           color: #000000;
           padding-top: 92px;
           margin-bottom: 31px;
+          @include max-screen(769px){
+            padding-top: 35px;
+            margin-bottom: 20px;
+            font-size: 33px;
+          }
         }
         p{
           font-family: 'Roboto';
@@ -563,6 +666,17 @@ header {
           color: #000000;
           max-width: 530px;
           margin-bottom: 39px;
+          @include max-screen(769px){
+            font-size: 30px;
+            max-width: 380px;
+            margin-bottom: 25px;
+            text-align: justify;
+          }
+          @include max-screen(429px){
+            max-width: 100%;
+            line-height: 22px;
+            font-size: 17px;
+          }
         }
         a{
           font-family: 'Roboto';
@@ -582,6 +696,9 @@ header {
   background: white;
   padding-top: 190px;
   padding-bottom: 110px;
+  @include max-screen(769px){
+    padding: 50px 15px;
+  }
   .sub_unique {
     max-width: 1280px;
     margin: auto;
@@ -593,12 +710,28 @@ header {
       line-height: 42px;
       text-align: center;
       color: #000000;
+      @include max-screen(429px){
+        font-size: 28px;
+        line-height: 37px;
+      }
+      @include max-screen(361px){
+        font-size: 26px;
+        line-height: 37px;
+      }
     }
     .first {
     display: flex;
     justify-content: space-around;
       margin-top: 69px;
       margin-bottom: 111px;
+      @include max-screen(769px){
+        margin-top: 50px;
+        margin-bottom: 85px;
+      }
+      @include max-screen(429px){
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
       article{
         text-align: center;
         width: 216px;
@@ -615,6 +748,14 @@ header {
           line-height: 35px;
           text-align: center;
           color: #000000;
+          @include max-screen(429px){
+            font-size: 17px;
+            line-height: 20px;
+          }
+          @include max-screen(361px){
+            font-size: 15px;
+            line-height: 20px;
+          }
         }
       }
   }
@@ -637,6 +778,14 @@ header {
           line-height: 35px;
           text-align: center;
           color: #000000;
+          @include max-screen(429px){
+            font-size: 17px;
+            line-height: 20px;
+          }
+          @include max-screen(361px){
+            font-size: 15px;
+            line-height: 20px;
+          }
         }
       }
     }
@@ -645,9 +794,18 @@ header {
 .voices{
   background: linear-gradient(to top, #F0F0F0 50%, white 50%);
   padding:52px 0;
+  @include max-screen(769px){
+    padding:35px 15px;
+  }
+  @include max-screen(429px){
+    background: #F0F0F0;
+  }
   .sub_voices{
     max-width: 1064px;
     margin: auto;
+    @include max-screen(429px){
+      text-align: center;
+    }
     h3{
       max-width: 705px;
       margin: auto;
@@ -660,15 +818,36 @@ header {
       line-height: 42px;
       text-align: center;
       color: #000000;
+      @include max-screen(769px){
+        margin-bottom: 38px;
+      }
+      @include max-screen(429px){
+        font-size: 28px;
+        line-height: 37px;
+        margin-bottom: 0;
+      }
     }
     .discover{
       display: flex;
       justify-content: space-between;
+      @include max-screen(429px){
+        display: inline-block;
+      }
       article{
         text-align: center;
+        @include max-screen(769px){
+          max-width: 238px;
+        }
         img{
           width: 100%;
+          max-width: 288px;
           margin-bottom: 35px;
+          @include max-screen(769px){
+            margin-bottom: 20px;
+          }
+          @include max-screen(429px){
+            margin-top: 50px;
+          }
         }
         .things{
           font-family: 'Roboto';
@@ -681,6 +860,12 @@ header {
           color: #000000;
           margin-bottom: 40px;
           width: 269px;
+          @include max-screen(769px){
+            font-size: 17px;
+            width: 235px;
+            margin-bottom: 20px;
+            line-height: 22px;
+          }
         }
         p{
           font-family: 'Roboto';
@@ -692,6 +877,11 @@ header {
           color: #000000;
           margin-bottom: 44px;
           width: 269px;
+          @include max-screen(769px){
+            width: 245px;
+            font-size: 17px;
+            margin-bottom: 20px;
+          }
         }
         a{
           font-family: 'Roboto';
@@ -703,6 +893,7 @@ header {
           text-decoration-line: underline;
           color: #000000;
           width: 269px;
+
         }
       }
     }
@@ -712,12 +903,13 @@ header {
   background-color: #FFFFFF;
   padding-top: 79px;
   padding-bottom: 98px;
-
+  @include max-screen(769px){
+    padding: 35px 15px;
+  }
   .sub_touch {
     max-width: 1280px;
     margin: auto;
     text-align: center;
-
     h3 {
       font-family: 'Roboto';
       font-style: normal;
@@ -727,7 +919,6 @@ header {
       color: #000000;
       margin-bottom: 9px;
     }
-
     p {
       font-family: 'Roboto';
       font-style: normal;
@@ -739,8 +930,47 @@ header {
       margin: auto;
       margin-bottom: 26px;
     }
-
-    a {
+  }
+  .first_form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  .contact {
+    max-width: 366px;
+    margin: auto;
+    input {
+      width: 153px;
+      padding-top: 12px;
+      padding-left: 8px;
+      padding-bottom: 11px;
+      box-sizing: border-box;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #A0A0A0;
+      @include max-screen(321px){
+        width: 140px;
+      }
+    }
+    .third_form{
+      input{
+      width: 100%;
+        padding-top: 13px;
+        padding-left: 8px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #A0A0A0;
+      }
+    }
+    button{
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
@@ -752,38 +982,17 @@ header {
       border: 1px solid #000000;
       border-radius: 100px;
       padding: 7px 23px 10px;
+      margin-top: 16px;
     }
-  }
-
-  .contact {
-    max-width: 366px;
-    margin: auto;
-    .first_form{
-      display: flex;
-      justify-content: space-between;
-    }
-    input {
-      width: 153px;
-    }
-    .third_form{
-      input{
-      width: 100%;
-      }
-    }
-
-
-    //.first_form{
-    //display: flex;
-    //justify-content: space-between;
-    //input{
-    //  width: 100%;
-    //}
   }
 }
 footer{
   background-color: #020202;
   padding-bottom: 16px;
   padding-top: 51px;
+  @include max-screen(769px){
+    padding: 40px 15px 16px;
+  }
   .foot{
     max-width: 1280px;
     margin: auto;
@@ -792,17 +1001,65 @@ footer{
     .log{
       img{
         margin-bottom: 45px;
+        @include max-screen(429px){
+          margin-bottom:30px;
+        }
+        @include max-screen(361px){
+          width: 100px;
+        }
+        @include max-screen(321px){
+          width: 85px;
+        }
       }
       ul{
         max-width: 115px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        @include max-screen(429px){
+          margin-top: 30px;
+          max-width: 100px;
+        }
+        @include max-screen(361px){
+          max-width: 80px;
+          margin-top: 43px;
+        }
+        li{
+          a{
+            img{
+              width: 18px;
+            }
+          }
+        }
+
       }
     }
     .right{
       display: flex;
+      .contact{
+        @include max-screen(429px){
+          width: 100px;
+        }
+      }
       .about{
         margin-right: 72px;
+        @include max-screen(769px){
+          margin-right: 32px;
+        }
+        @include max-screen(429px){
+          margin-right: 10px;
+          width: 100px;
+        }
+        @include max-screen(391px){
+          width: 85px;
+        }
+        @include max-screen(361px){
+          width: 75px;
+        }
+      }
+      .contact{
+        @include max-screen(361px){
+          width: 75px;
+        }
       }
       ul{
       list-style: none;
@@ -815,9 +1072,15 @@ footer{
         line-height: 23px;
          color: #FFFFFF;
          margin-bottom: 36px;
+        @include max-screen(429px){
+          margin-bottom: 5px;
+        }
       }
       li{
         margin-bottom: 12px;
+        @include max-screen(429px){
+          margin-bottom: 4px;
+        }
         a{
           font-family: 'Roboto';
           font-style: normal;
@@ -826,6 +1089,14 @@ footer{
           line-height: 21px;
           color: #FFFFFF;
           text-decoration: none;
+          @include max-screen(391px){
+            font-size: 12px;
+            line-height: 14px;
+          }
+          @include max-screen(321px){
+            font-size: 10px;
+            line-height: 12px;
+          }
         }
       }
 

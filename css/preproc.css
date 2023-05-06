@@ -352,6 +352,11 @@ header .container nav ul li a {
   padding-top: 0;
   padding-bottom: 248px;
 }
+@media screen and (max-width: 769px) {
+  .sellers {
+    padding-bottom: 100px;
+  }
+}
 .sellers .container {
   max-width: 1064px;
   margin: auto;
@@ -460,6 +465,11 @@ header .container nav ul li a {
   padding-top: 76px;
   padding-bottom: 51px;
 }
+@media screen and (max-width: 769px) {
+  .people {
+    padding: 40px 15px 30px;
+  }
+}
 .people .sub_people {
   max-width: 1064px;
   margin: auto;
@@ -467,14 +477,40 @@ header .container nav ul li a {
 .people .sub_people article {
   display: flex;
 }
+@media screen and (max-width: 429px) {
+  .people .sub_people article {
+    display: inline-block;
+    text-align: center;
+  }
+}
 .people .sub_people article img {
   width: 100%;
   max-width: 375px;
 }
+@media screen and (max-width: 769px) {
+  .people .sub_people article img {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .people .sub_people article img {
+    max-width: 280px;
+  }
+}
 .people .sub_people article .society {
   margin-left: 50px;
 }
-.people .sub_people article .society h3 {
+@media screen and (max-width: 769px) {
+  .people .sub_people article .society {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .people .sub_people article .society {
+    margin-left: 0;
+  }
+}
+.people .sub_people article h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -484,7 +520,14 @@ header .container nav ul li a {
   padding-top: 70px;
   margin-bottom: 31px;
 }
-.people .sub_people article .society p {
+@media screen and (max-width: 769px) {
+  .people .sub_people article h3 {
+    padding-top: 35px;
+    margin-bottom: 20px;
+    font-size: 33px;
+  }
+}
+.people .sub_people article p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -494,7 +537,22 @@ header .container nav ul li a {
   margin-bottom: 40px;
   max-width: 498px;
 }
-.people .sub_people article .society a {
+@media screen and (max-width: 769px) {
+  .people .sub_people article p {
+    font-size: 30px;
+    max-width: 380px;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 429px) {
+  .people .sub_people article p {
+    max-width: 100%;
+    line-height: 22px;
+    font-size: 17px;
+  }
+}
+.people .sub_people article a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -509,6 +567,11 @@ header .container nav ul li a {
   padding-top: 76px;
   padding-bottom: 51px;
 }
+@media screen and (max-width: 769px) {
+  .maroccan {
+    padding: 40px 15px 30px;
+  }
+}
 .maroccan .sub_maroccan {
   max-width: 1064px;
   margin: auto;
@@ -516,9 +579,26 @@ header .container nav ul li a {
 .maroccan .sub_maroccan article {
   display: flex;
 }
+@media screen and (max-width: 429px) {
+  .maroccan .sub_maroccan article {
+    display: inline-block;
+    text-align: center;
+  }
+}
 .maroccan .sub_maroccan article .heritage {
   margin-right: 50px;
   text-align: right;
+}
+@media screen and (max-width: 769px) {
+  .maroccan .sub_maroccan article .heritage {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .maroccan .sub_maroccan article .heritage {
+    margin-right: 0;
+    text-align: center;
+  }
 }
 .maroccan .sub_maroccan article .heritage h3 {
   font-family: "Roboto";
@@ -530,6 +610,13 @@ header .container nav ul li a {
   padding-top: 92px;
   margin-bottom: 31px;
 }
+@media screen and (max-width: 769px) {
+  .maroccan .sub_maroccan article .heritage h3 {
+    padding-top: 35px;
+    margin-bottom: 20px;
+    font-size: 33px;
+  }
+}
 .maroccan .sub_maroccan article .heritage p {
   font-family: "Roboto";
   font-style: normal;
@@ -539,6 +626,21 @@ header .container nav ul li a {
   color: #000000;
   max-width: 513px;
   margin-bottom: 31px;
+}
+@media screen and (max-width: 769px) {
+  .maroccan .sub_maroccan article .heritage p {
+    font-size: 30px;
+    max-width: 380px;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 429px) {
+  .maroccan .sub_maroccan article .heritage p {
+    max-width: 100%;
+    line-height: 22px;
+    font-size: 17px;
+  }
 }
 .maroccan .sub_maroccan article .heritage a {
   font-family: "Roboto";
@@ -553,11 +655,31 @@ header .container nav ul li a {
   width: 100%;
   max-width: 375px;
 }
+@media screen and (max-width: 769px) {
+  .maroccan .sub_maroccan article img {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .maroccan .sub_maroccan article img {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .maroccan .sub_maroccan article img {
+    max-width: 280px;
+  }
+}
 
 .power {
   background: rgba(204, 204, 204, 0.3);
   padding-top: 76px;
   padding-bottom: 51px;
+}
+@media screen and (max-width: 769px) {
+  .power {
+    padding: 40px 15px 30px;
+  }
 }
 .power .sub_power {
   max-width: 1064px;
@@ -566,12 +688,38 @@ header .container nav ul li a {
 .power .sub_power article {
   display: flex;
 }
+@media screen and (max-width: 429px) {
+  .power .sub_power article {
+    display: inline-block;
+    text-align: center;
+  }
+}
 .power .sub_power article img {
   width: 100%;
   max-width: 375px;
 }
+@media screen and (max-width: 769px) {
+  .power .sub_power article img {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .power .sub_power article img {
+    max-width: 280px;
+  }
+}
 .power .sub_power article .politics {
   margin-left: 50px;
+}
+@media screen and (max-width: 769px) {
+  .power .sub_power article .politics {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .power .sub_power article .politics {
+    margin-left: 0;
+  }
 }
 .power .sub_power article .politics h3 {
   font-family: "Roboto";
@@ -583,6 +731,13 @@ header .container nav ul li a {
   padding-top: 92px;
   margin-bottom: 31px;
 }
+@media screen and (max-width: 769px) {
+  .power .sub_power article .politics h3 {
+    padding-top: 35px;
+    margin-bottom: 20px;
+    font-size: 33px;
+  }
+}
 .power .sub_power article .politics p {
   font-family: "Roboto";
   font-style: normal;
@@ -592,6 +747,21 @@ header .container nav ul li a {
   color: #000000;
   max-width: 530px;
   margin-bottom: 39px;
+}
+@media screen and (max-width: 769px) {
+  .power .sub_power article .politics p {
+    font-size: 30px;
+    max-width: 380px;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 429px) {
+  .power .sub_power article .politics p {
+    max-width: 100%;
+    line-height: 22px;
+    font-size: 17px;
+  }
 }
 .power .sub_power article .politics a {
   font-family: "Roboto";
@@ -608,6 +778,11 @@ header .container nav ul li a {
   padding-top: 190px;
   padding-bottom: 110px;
 }
+@media screen and (max-width: 769px) {
+  .unique {
+    padding: 50px 15px;
+  }
+}
 .unique .sub_unique {
   max-width: 1280px;
   margin: auto;
@@ -621,11 +796,35 @@ header .container nav ul li a {
   text-align: center;
   color: #000000;
 }
+@media screen and (max-width: 429px) {
+  .unique .sub_unique h3 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .sub_unique h3 {
+    font-size: 26px;
+    line-height: 37px;
+  }
+}
 .unique .sub_unique .first {
   display: flex;
   justify-content: space-around;
   margin-top: 69px;
   margin-bottom: 111px;
+}
+@media screen and (max-width: 769px) {
+  .unique .sub_unique .first {
+    margin-top: 50px;
+    margin-bottom: 85px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .unique .sub_unique .first {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
 }
 .unique .sub_unique .first article {
   text-align: center;
@@ -644,6 +843,18 @@ header .container nav ul li a {
   line-height: 35px;
   text-align: center;
   color: #000000;
+}
+@media screen and (max-width: 429px) {
+  .unique .sub_unique .first article p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .sub_unique .first article p {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 .unique .sub_unique .second {
   display: flex;
@@ -667,14 +878,41 @@ header .container nav ul li a {
   text-align: center;
   color: #000000;
 }
+@media screen and (max-width: 429px) {
+  .unique .sub_unique .second article p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .sub_unique .second article p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
 
 .voices {
   background: linear-gradient(to top, #F0F0F0 50%, white 50%);
   padding: 52px 0;
 }
+@media screen and (max-width: 769px) {
+  .voices {
+    padding: 35px 15px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .voices {
+    background: #F0F0F0;
+  }
+}
 .voices .sub_voices {
   max-width: 1064px;
   margin: auto;
+}
+@media screen and (max-width: 429px) {
+  .voices .sub_voices {
+    text-align: center;
+  }
 }
 .voices .sub_voices h3 {
   max-width: 705px;
@@ -689,16 +927,49 @@ header .container nav ul li a {
   text-align: center;
   color: #000000;
 }
+@media screen and (max-width: 769px) {
+  .voices .sub_voices h3 {
+    margin-bottom: 38px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .voices .sub_voices h3 {
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 0;
+  }
+}
 .voices .sub_voices .discover {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 429px) {
+  .voices .sub_voices .discover {
+    display: inline-block;
+  }
+}
 .voices .sub_voices .discover article {
   text-align: center;
 }
+@media screen and (max-width: 769px) {
+  .voices .sub_voices .discover article {
+    max-width: 238px;
+  }
+}
 .voices .sub_voices .discover article img {
   width: 100%;
+  max-width: 288px;
   margin-bottom: 35px;
+}
+@media screen and (max-width: 769px) {
+  .voices .sub_voices .discover article img {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .voices .sub_voices .discover article img {
+    margin-top: 50px;
+  }
 }
 .voices .sub_voices .discover article .things {
   font-family: "Roboto";
@@ -712,6 +983,14 @@ header .container nav ul li a {
   margin-bottom: 40px;
   width: 269px;
 }
+@media screen and (max-width: 769px) {
+  .voices .sub_voices .discover article .things {
+    font-size: 17px;
+    width: 235px;
+    margin-bottom: 20px;
+    line-height: 22px;
+  }
+}
 .voices .sub_voices .discover article p {
   font-family: "Roboto";
   font-style: normal;
@@ -722,6 +1001,13 @@ header .container nav ul li a {
   color: #000000;
   margin-bottom: 44px;
   width: 269px;
+}
+@media screen and (max-width: 769px) {
+  .voices .sub_voices .discover article p {
+    width: 245px;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
 }
 .voices .sub_voices .discover article a {
   font-family: "Roboto";
@@ -739,6 +1025,11 @@ header .container nav ul li a {
   background-color: #FFFFFF;
   padding-top: 79px;
   padding-bottom: 98px;
+}
+@media screen and (max-width: 769px) {
+  .touch {
+    padding: 35px 15px;
+  }
 }
 .touch .sub_touch {
   max-width: 1280px;
@@ -765,7 +1056,47 @@ header .container nav ul li a {
   margin: auto;
   margin-bottom: 26px;
 }
-.touch .sub_touch a {
+.touch .first_form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.touch .contact {
+  max-width: 366px;
+  margin: auto;
+}
+.touch .contact input {
+  width: 153px;
+  padding-top: 12px;
+  padding-left: 8px;
+  padding-bottom: 11px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A0A0A0;
+}
+@media screen and (max-width: 321px) {
+  .touch .contact input {
+    width: 140px;
+  }
+}
+.touch .contact .third_form input {
+  width: 100%;
+  padding-top: 13px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A0A0A0;
+}
+.touch .contact button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -777,26 +1108,18 @@ header .container nav ul li a {
   border: 1px solid #000000;
   border-radius: 100px;
   padding: 7px 23px 10px;
-}
-.touch .contact {
-  max-width: 366px;
-  margin: auto;
-}
-.touch .contact .first_form {
-  display: flex;
-  justify-content: space-between;
-}
-.touch .contact input {
-  width: 153px;
-}
-.touch .contact .third_form input {
-  width: 100%;
+  margin-top: 16px;
 }
 
 footer {
   background-color: #020202;
   padding-bottom: 16px;
   padding-top: 51px;
+}
+@media screen and (max-width: 769px) {
+  footer {
+    padding: 40px 15px 16px;
+  }
 }
 footer .foot {
   max-width: 1280px;
@@ -807,16 +1130,77 @@ footer .foot {
 footer .foot .log img {
   margin-bottom: 45px;
 }
+@media screen and (max-width: 429px) {
+  footer .foot .log img {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 361px) {
+  footer .foot .log img {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 321px) {
+  footer .foot .log img {
+    width: 85px;
+  }
+}
 footer .foot .log ul {
   max-width: 115px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media screen and (max-width: 429px) {
+  footer .foot .log ul {
+    margin-top: 30px;
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 361px) {
+  footer .foot .log ul {
+    max-width: 80px;
+    margin-top: 43px;
+  }
+}
+footer .foot .log ul li a img {
+  width: 18px;
 }
 footer .foot .right {
   display: flex;
 }
+@media screen and (max-width: 429px) {
+  footer .foot .right .contact {
+    width: 100px;
+  }
+}
 footer .foot .right .about {
   margin-right: 72px;
+}
+@media screen and (max-width: 769px) {
+  footer .foot .right .about {
+    margin-right: 32px;
+  }
+}
+@media screen and (max-width: 429px) {
+  footer .foot .right .about {
+    margin-right: 10px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 391px) {
+  footer .foot .right .about {
+    width: 85px;
+  }
+}
+@media screen and (max-width: 361px) {
+  footer .foot .right .about {
+    width: 75px;
+  }
+}
+@media screen and (max-width: 361px) {
+  footer .foot .right .contact {
+    width: 75px;
+  }
 }
 footer .foot .right ul {
   list-style: none;
@@ -830,8 +1214,18 @@ footer .foot .right .ab {
   color: #FFFFFF;
   margin-bottom: 36px;
 }
+@media screen and (max-width: 429px) {
+  footer .foot .right .ab {
+    margin-bottom: 5px;
+  }
+}
 footer .foot .right li {
   margin-bottom: 12px;
+}
+@media screen and (max-width: 429px) {
+  footer .foot .right li {
+    margin-bottom: 4px;
+  }
 }
 footer .foot .right li a {
   font-family: "Roboto";
@@ -841,6 +1235,18 @@ footer .foot .right li a {
   line-height: 21px;
   color: #FFFFFF;
   text-decoration: none;
+}
+@media screen and (max-width: 391px) {
+  footer .foot .right li a {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 321px) {
+  footer .foot .right li a {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 footer .llc {
   text-align: center;
