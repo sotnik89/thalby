@@ -37,6 +37,13 @@ header {
       @include max-screen(429px) {
         top: 12px;
       }
+      &:hover{
+        transform: rotate(360deg);
+        transition: 0.7s;
+
+        //transform: scale(1.1);
+        //transition: 0.4s;
+      }
     }
     .icon {
       width: 115px;
@@ -48,6 +55,12 @@ header {
       @include max-screen(429px) {
         display: none;
       }
+      li{
+        &:hover{
+          transform: scale(1.2);
+          transition: 0.3s;
+        }
+      }
     }
     nav {
       ul {
@@ -58,6 +71,10 @@ header {
             display: inline-block;
         }
         li {
+          &:hover{
+            transform: scale(1.3);
+            transition: 0.3s;
+          }
           a {
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
