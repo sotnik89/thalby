@@ -761,7 +761,6 @@ header {
           font-style: normal;
           font-weight: 700;
           width: 216px;
-          //margin: auto;
           font-size: 30px;
           line-height: 35px;
           text-align: center;
@@ -769,6 +768,8 @@ header {
           &:before{
             content: '';
             display: block;
+            margin-left: auto;
+            margin-right: auto;
             margin-bottom: 25px;
             text-align: center;
             width: 70px;
