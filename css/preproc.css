@@ -39,7 +39,7 @@ header .container .logo {
 }
 header .container .logo:hover {
   transform: rotate(360deg);
-  transition: 0.7s;
+  transition: 0.8s;
 }
 header .container .icon {
   width: 115px;
@@ -844,32 +844,34 @@ header .container nav ul li a {
     margin-bottom: 50px;
   }
 }
-.unique .sub_unique .first article {
-  text-align: center;
-  width: 216px;
-}
-.unique .sub_unique .first article img {
-  width: 100%;
-  max-width: 70px;
-  margin-bottom: 25px;
-}
-.unique .sub_unique .first article p {
+.unique .sub_unique .first p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
+  width: 216px;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
   color: #000000;
 }
+.unique .sub_unique .first p:before {
+  content: "";
+  display: block;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #21F7EC;
+  border-radius: 50%;
+}
 @media screen and (max-width: 429px) {
-  .unique .sub_unique .first article p {
+  .unique .sub_unique .first p {
     font-size: 17px;
     line-height: 20px;
   }
 }
 @media screen and (max-width: 361px) {
-  .unique .sub_unique .first article p {
+  .unique .sub_unique .first p {
     font-size: 15px;
     line-height: 20px;
   }

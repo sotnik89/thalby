@@ -748,22 +748,34 @@ header {
         margin-top: 30px;
         margin-bottom: 50px;
       }
-      article{
-        text-align: center;
-        width: 216px;
-        img {
-          width: 100%;
-          max-width: 70px;
-          margin-bottom: 25px;
-        }
+      //article{
+      //  text-align: center;
+      //  width: 216px;
+        //img {
+        //  width: 100%;
+        //  max-width: 70px;
+        //  margin-bottom: 25px;
+        //}
         p{
           font-family: 'Roboto', sans-serif;
           font-style: normal;
           font-weight: 700;
+          width: 216px;
+          //margin: auto;
           font-size: 30px;
           line-height: 35px;
           text-align: center;
           color: #000000;
+          &:before{
+            content: '';
+            display: block;
+            margin-bottom: 25px;
+            text-align: center;
+            width: 70px;
+            height: 70px;
+            background-color: #21F7EC;
+            border-radius: 50%;
+          }
           @include max-screen(429px){
             font-size: 17px;
             line-height: 20px;
@@ -773,7 +785,7 @@ header {
             line-height: 20px;
           }
         }
-      }
+      //}
   }
     .second{
       display: flex;
