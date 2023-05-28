@@ -51,7 +51,7 @@ header .container .icon {
 }
 @media screen and (max-width: 429px) {
   header .container .icon {
-    display: none;
+    width: 65px;
   }
 }
 header .container .icon li:hover {
@@ -71,6 +71,7 @@ header .container nav ul {
 header .container nav ul li:hover {
   transform: scale(1.3);
   transition: 0.3s;
+  text-decoration: underline;
 }
 header .container nav ul li a {
   text-decoration: none;
@@ -844,7 +845,7 @@ header .container nav ul li a {
     margin-bottom: 50px;
   }
 }
-.unique .sub_unique .first p {
+.unique .sub_unique .first .written {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -853,8 +854,9 @@ header .container nav ul li a {
   line-height: 35px;
   text-align: center;
   color: #000000;
+  width: 211px;
 }
-.unique .sub_unique .first p:before {
+.unique .sub_unique .first .written:before {
   content: "";
   display: block;
   margin-left: auto;
@@ -867,31 +869,92 @@ header .container nav ul li a {
   border-radius: 50%;
 }
 @media screen and (max-width: 429px) {
-  .unique .sub_unique .first p {
+  .unique .sub_unique .first .written {
     font-size: 17px;
     line-height: 20px;
   }
 }
 @media screen and (max-width: 361px) {
-  .unique .sub_unique .first p {
+  .unique .sub_unique .first .written {
     font-size: 15px;
     line-height: 20px;
   }
 }
-.unique .sub_unique .second {
+.unique .sub_unique .first .packed {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  width: 216px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  width: 211px;
+}
+.unique .sub_unique .first .packed:before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #33D3BC;
+  border-radius: 50%;
+}
+@media screen and (max-width: 429px) {
+  .unique .sub_unique .first .packed {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .sub_unique .first .packed {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.unique .sub_unique .first .interviews {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  width: 216px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  width: 211px;
+}
+.unique .sub_unique .first .interviews:before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #18A5C6;
+  border-radius: 50%;
+}
+@media screen and (max-width: 429px) {
+  .unique .sub_unique .first .interviews {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .sub_unique .first .interviews {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.unique .second {
   display: flex;
   justify-content: space-around;
 }
-.unique .sub_unique .second article {
-  text-align: center;
-  width: 216px;
-}
-.unique .sub_unique .second article img {
-  width: 100%;
-  max-width: 70px;
-  margin-bottom: 25px;
-}
-.unique .sub_unique .second article p {
+.unique .second .key {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -899,15 +962,96 @@ header .container nav ul li a {
   line-height: 35px;
   text-align: center;
   color: #000000;
+  width: 211px;
+}
+.unique .second .key:before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #D38F62;
+  border-radius: 50%;
 }
 @media screen and (max-width: 429px) {
-  .unique .sub_unique .second article p {
+  .unique .second .key {
     font-size: 17px;
     line-height: 20px;
   }
 }
 @media screen and (max-width: 361px) {
-  .unique .sub_unique .second article p {
+  .unique .second .key {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.unique .second .concise {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  width: 211px;
+}
+.unique .second .concise:before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #F94C43;
+  border-radius: 50%;
+}
+@media screen and (max-width: 429px) {
+  .unique .second .concise {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .second .concise {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.unique .second .instant {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  width: 211px;
+}
+.unique .second .instant:before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: #D399FF;
+  border-radius: 50%;
+}
+@media screen and (max-width: 429px) {
+  .unique .second .instant {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .unique .second .instant {
     font-size: 15px;
     line-height: 20px;
   }
@@ -1098,7 +1242,7 @@ header .container nav ul li a {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: #A0A0A0;
+  color: black;
 }
 @media screen and (max-width: 321px) {
   .touch .contact input {
@@ -1116,7 +1260,7 @@ header .container nav ul li a {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: #A0A0A0;
+  color: black;
 }
 .touch .contact button {
   font-family: "Roboto", sans-serif;
@@ -1131,6 +1275,11 @@ header .container nav ul li a {
   border-radius: 100px;
   padding: 7px 23px 10px;
   margin-top: 16px;
+}
+.touch .contact button:hover {
+  transform: scale(1.3);
+  transition: 0.7s;
+  background-color: #21F7EC;
 }
 
 footer {
@@ -1184,7 +1333,11 @@ footer .foot .log ul {
     margin-top: 43px;
   }
 }
-footer .foot .log ul li a img {
+footer .foot .log ul li:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+footer .foot .log ul li .logo_footer img {
   width: 18px;
 }
 footer .foot .right {
@@ -1243,6 +1396,10 @@ footer .foot .right .ab {
 }
 footer .foot .right li {
   margin-bottom: 12px;
+}
+footer .foot .right li:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
 }
 @media screen and (max-width: 429px) {
   footer .foot .right li {
